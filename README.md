@@ -17,18 +17,23 @@ npm i date-select-ob
 ```javascript
 //Create a calendar object
 var deteSelectOb = new DeteSelectOb()
+
 //Calendar of the information, it is a list of dates
 var calendarList
+
 //Get the current calendar
 calendarList = deteSelectOb.rest()
 console.log('Get the current calendar', calendarList)
+
 //Get the next month's calendar
 calendarList = deteSelectOb.next()
 console.log("Get next month's calendar", calendarList)
+
 //Get the last month's calendar
 deteSelectOb.rest()
 deteSelectOb.back()
 console.log("Get last month's calendar", calendarList)
+
 //Get a specific date calendar
 deteSelectOb.yy = 2018
 deteSelectOb.mm = 2
