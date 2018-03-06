@@ -86,3 +86,7 @@ Output 2018/2 calendar data，like this
     mm: 2
 }
 ```
+
+## calendar view demo
+
+https://github.com/cainmaila/date-select-ob-calendar
