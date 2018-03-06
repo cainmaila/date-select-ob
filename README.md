@@ -1,6 +1,8 @@
 # DeteSelectOb
 
-這是一個萬年曆的資料，可以利用某一天來取得當月份的月歷，或者相鄰月份的月歷，你可以利用他製作自己的月歷版面
+This is a calendar data generator, you can use a day to get the monthly calendar, or the monthly calendar of the adjacent month, you can use him to create their own calendar layout.
+
+這是一個月曆資料生成器，可以利用某一天來取得當月份的月歷，或者相鄰月份的月歷，你可以利用他製作自己的月歷版面
 
 ## How to install
 
@@ -13,28 +15,28 @@ npm i date-select-ob
 ## How to use
 
 ```javascript
-//建立一個月歷物件
+//Create a calendar object
 var deteSelectOb = new DeteSelectOb()
-//月歷的資料，他是一個日期列表
+//Calendar of the information, it is a list of dates
 var calendarList
-//取得月曆
+//Get the current calendar
 calendarList = deteSelectOb.rest()
-console.log("Get this month's calendar", calendarList)
-//取得下個月月歷
+console.log('Get the current calendar', calendarList)
+//Get the next month's calendar
 calendarList = deteSelectOb.next()
 console.log("Get next month's calendar", calendarList)
-//取得上個月月歷
+//Get the last month's calendar
 deteSelectOb.rest()
 deteSelectOb.back()
 console.log("Get last month's calendar", calendarList)
-//取得特定日期月歷
+//Get a specific date calendar
 deteSelectOb.yy = 2018
 deteSelectOb.mm = 2
 calendarList = deteSelectOb.getDate()
 console.log("Select a month's calendar", calendarList)
 ```
 
-輸出 2018/2 月曆資料
+Output 2018/2 calendar data，like this
 
 ```json
 {
