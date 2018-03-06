@@ -4,12 +4,14 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "build": "rollup -c"
+        "build": "rollup -c",
+        "test": "mocha test/test.js"
     },
     "repository": "https://github.com/cainmaila/date-select-ob.git",
     "author": "CainChu <cainmaila@gmail.com>",
     "license": "MIT",
     "devDependencies": {
+        "mocha": "^5.0.2",
         "rollup": "^0.56.4",
         "rollup-plugin-commonjs": "^9.0.0",
         "rollup-plugin-node-resolve": "^3.0.3",
