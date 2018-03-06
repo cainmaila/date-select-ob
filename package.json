@@ -1,0 +1,18 @@
+{
+    "name": "date-select-ob",
+    "description": "Calendar control object",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "build": "rollup -c"
+    },
+    "repository": "https://github.com/cainmaila/date-select-ob.git",
+    "author": "CainChu <cainmaila@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "rollup": "^0.56.4",
+        "rollup-plugin-commonjs": "^9.0.0",
+        "rollup-plugin-node-resolve": "^3.0.3",
+        "rollup-plugin-uglify": "^3.0.0"
+    }
+}
