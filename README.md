@@ -17,6 +17,8 @@ npm i date-select-ob
 ## How to use
 
 ```javascript
+var DeteSelectOb = require('date-select-ob')
+
 //Create a calendar object
 var deteSelectOb = new DeteSelectOb()
 
