@@ -1,5 +1,7 @@
 # DeteSelectOb
 
+[![Build Status](https://travis-ci.org/cainmaila/date-select-ob.svg?branch=master)](https://travis-ci.org/cainmaila/date-select-ob)
+
 This is a calendar data generator, you can use a day to get the monthly calendar, or the monthly calendar of the adjacent month, you can use him to create their own calendar layout.
 
 這是一個月曆資料生成器，可以利用某一天來取得當月份的月歷，或者相鄰月份的月歷，你可以利用他製作自己的月歷版面
