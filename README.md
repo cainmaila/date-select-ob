@@ -41,7 +41,9 @@ calendarList = deteSelectOb.getDate()
 console.log("Select a month's calendar", calendarList)
 ```
 
-Output 2018/2 calendar data，like this
+Output 2018/3 calendar data，like this
+
+> Returns the month (0 for January and 11 for December)
 
 ```json
 {

@@ -7,6 +7,7 @@ describe('DeteSelectOb', function() {
             deteSelectOb.yy = 2018
             deteSelectOb.mm = 2
             calendarList = deteSelectOb.getDate()
+            console.log(calendarList)
             assert.deepEqual(calendarList, {
                 list: [
                     { yy: 2018, mm: 1, dd: 25 },
